@@ -33,7 +33,6 @@
 #define MIN_REFRESH_RATE 30
 #define DEFAULT_MDP_TRANSFER_TIME 14000
 
-
 #ifdef VENDOR_EDIT
 #include <linux/boot_mode.h>
 
