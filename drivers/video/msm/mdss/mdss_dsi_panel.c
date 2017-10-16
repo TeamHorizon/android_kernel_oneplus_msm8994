@@ -24,7 +24,6 @@
 #include <linux/string.h>
 #include <linux/display_state.h>
 
-#include <linux/display_state.h>
 #include "mdss_dsi.h"
 #include "mdss_mdp.h"
 #include "mdss_livedisplay.h"
@@ -136,13 +135,6 @@ bool is_display_on()
 }
 
 DEFINE_LED_TRIGGER(bl_led_trigger);
-
-bool display_on = true;
-
-bool is_display_on()
-{
-	return display_on;
-}
 
 void mdss_dsi_panel_pwm_cfg(struct mdss_dsi_ctrl_pdata *ctrl)
 {
